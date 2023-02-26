@@ -1,0 +1,122 @@
+body{
+    color: rgb(0, 0, 0);
+    background-position: center;
+    background-image: url(images/CompassBG.png);
+    margin: 0px;
+}
+
+header{
+    height: 150px;
+    background-image: url(images/HeaderNN.png);
+    background-size: contain
+}
+.wrapper{
+    width: 950px;
+    margin: 20px auto 20px auto;
+    border: 2px;
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    width: 940px;
+    height: 130px;
+    margin: 0px;
+}
+
+nav,footer{
+    clear: both;
+    color: azure;
+    background-color: black;
+    height: 30px;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+    overflow: auto;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+    padding: 1px 1px 1px 1px;
+}
+
+nav li a{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+nav li a:hover{
+    background-color: rgb(32, 32, 32);
+    padding: 5px 0px 5px 2px;
+}
+
+section.berita{
+    float: left;
+    width: 700px;
+    border-left: 1px solid ;
+    border-right: 1px solid ;
+}
+
+article{
+    clear: both;
+    overflow: auto;
+    width: auto;
+}
+
+hgroup{
+    margin-top: 40px;
+}
+
+figure{
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 5px solid;
+}
+aside{
+    width: 230px;
+    float: left;
+    padding: 10px 0px 10px 10px;
+}
+aside section a{
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid ;
+}
+aside section a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+a{
+    color: darkolivegreen;
+    text-decoration: none;
+}
+h1,h2,h3{
+    font-weight: normal;
+}
+h2{
+    margin: 10px 0px 5px 0px;
+    padding: 0px;
+}
+h3{
+    margin: 0px 0px 10px 0px;
+    color: darkseagreen;
+}
+aside h2{
+    border-top: 2px solid;
+    padding-top: 20px;
+    color: darkslategrey;
+}
+aside h4{
+    color: darkseagreen;
+}
+aside p{
+    border-bottom: 1px solid darkseagreen;
+}
+aside h5{
+    float: right;
+}
